@@ -5,7 +5,7 @@ env.read_envfile()
 DEBUG = env.bool('BADGEYAY_DEBUG', default=True)
 
 # Environment for working, can be LOCAL/PROD
-ENV = env.str('BADGEYAY_ENV', default='PROD')
+ENV = env.str('BADGEYAY_ENV', default='LOCAL')
 
 # Sample config for PostgreSQL Database
 POSTGRES = {
